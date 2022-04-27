@@ -1,4 +1,4 @@
-# Micropython Repaso
+# Raspberry Pico C/C++ SDK
 
 ## Consigna
 
@@ -15,7 +15,7 @@
 6- Hacer un `README.md` con el siguiente contenido:
 
 ```markdown
-# Mycropython Repaso
+# Raspberry Pico SDK
 
 
 Alumno: Nombre y apellido
@@ -29,11 +29,21 @@ Materia: Computadoras y Sistemas de Control
 
 ## Orientacion
 
-- Documentacion de [micropython](https://docs.micropython.org/en/latest/rp2/quickref.html)
-- Raspberry Pico [SDK](https://datasheets.raspberrypi.com/pico/raspberry-pi-pico-python-sdk.pdf) para miccropython.
-- Documentacion de [Wokwi](https://docs.wokwi.com/?utm_source=wokwi)
+- Datasheet del [RP2040][rp2040].
+- Datasheet de la [Raspberry Pico][pico].
+- Raspberry Pico [SDK][sdk] para C/C++.
+- Documentacion de [Wokwi][wokwi].
+- Pinout de la Raspberry Pico:
+
+![pinout][pinout]
 
 ## Entrega
 
-- Crear un repositorio con el nombre `add-01`
-- Subir el `README.md`, `main.py` y `diagram.json`
+- Crear un repositorio con el nombre `cysc-01`
+- Subir el `README.md`, `main.c` y `diagram.json`
+
+[rp2040]: https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf
+[pico]: https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf
+[sdk]: https://datasheets.raspberrypi.com/pico/raspberry-pi-pico-c-sdk.pdf
+[wokwi]: https://docs.wokwi.com/?utm_source=wokwi
+[pinout]: https://www.raspberrypi.com/documentation/microcontrollers/images/Pico-R3-SDK11-Pinout.svg
