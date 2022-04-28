@@ -1,5 +1,19 @@
 # cysc
 
+## Objetivos
+
+- Conocer la arquitectura interna de un microcontrolador.
+- Programar en bajo y alto nivel (C/C++).
+- Manipular registros de un microcontrolador.
+- Trabajar en aplicaciones de doble nucleo.
+- Diseñar hardware apropiado para solucionar problematicas.
+
+## Condiciones de aprobacion
+
+- Resolucion de actividades parciales.
+- Implementacion de un proyecto final.
+- Aprobar la evaluacion de proyecto.
+
 ## Actividades
 
 - [Raspberry Pico SDK][act01].
