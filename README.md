@@ -1,21 +1,19 @@
-# Raspberry Pico C/C++ SDK
+# ADC - Sensor de Temperatura
 
 ## Consigna
 
-1- Hacer una lectura de temperatura del NTC
+1- Usar el SDK de la Raspberry Pico para leer el valor del sensor de temperatura interno (canal 4).
 
-2- Hacer una lectura del potenciometro. Convertirlo a una referencia de temperatura (0-35 C)
+2- Las conversiones deben realizarse cada 500 ms.
 
-3- Si la temperatura indicada por el potenciometro es mayor a la del NTC, encender proporcionalmente el LED azul (PWM)
+3- Debe mostrarse por consola el valor que devuelve el ADC en hexadecimal, el valor de tension medido y la temperatura calculada ambos con dos decimales.
 
-4- Si la temperatura indicada por el potenciometro es menor a la del NTC, encender proporcionalmente el LED rojo (PWM)
+4- Cada vez que se realize una conversion, el LED conectado al GPIO 25 debe parpadear.
 
-5- Si se detecta movimiento desde el PIR (usar interrupciones), encender el buzzer. Apagarlo luego de 5 segundos
-
-6- Hacer un `README.md` con el siguiente contenido:
+5- Hacer un `README.md` con el siguiente contenido:
 
 ```markdown
-# Raspberry Pico SDK
+# ADC - Sensor de Temperatura
 
 
 Alumno: Nombre y apellido
@@ -39,8 +37,8 @@ Materia: Computadoras y Sistemas de Control
 
 ## Entrega
 
-- Crear un repositorio con el nombre `cysc-01`
-- Subir el `README.md`, `main.c` y `diagram.json`
+- Crear un repositorio con el nombre `cysc-01`.
+- Subir el `README.md`, `main.c`.
 
 [rp2040]: https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf
 [pico]: https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf
