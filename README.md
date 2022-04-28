@@ -16,10 +16,10 @@
 
 ## Actividades
 
-- [Raspberry Pico SDK][act01].
+- [ADC][act01].
 
 
 - [uPython Repaso][act01-old] (descontinuado).
 
-[act01]: https://github.com/impatrq/cysc/tree/act01/c-sdk
+[act01]: https://github.com/impatrq/cysc/tree/act01/adc
 [act01-old]: https://github.com/impatrq/cysc/tree/act01/upython-repaso
