@@ -1,4 +1,4 @@
-# Raspberry Pico C/C++ SDK
+# Control Proporcional
 
 ## Consigna
 
@@ -15,7 +15,7 @@
 6- Hacer un `README.md` con el siguiente contenido:
 
 ```markdown
-# Raspberry Pico SDK
+# Control Proporcional
 
 
 Alumno: Nombre y apellido
