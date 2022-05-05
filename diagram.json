@@ -8,7 +8,7 @@
       "id": "pico",
       "top": 0,
       "left": 0,
-      "attrs": { "env": "micropython-20220117-v1.18" }
+      "attrs": { "builder": "pico-sdk" }
     },
     {
       "type": "wokwi-led",
@@ -74,6 +74,8 @@
     }
   ],
   "connections": [
+    [ "pico:GP0", "$serialMonitor:RX", "", [] ], 
+    [ "pico:GP1", "$serialMonitor:TX", "", [] ],
     [ "r1:1", "led1:C", "green", [ "v0" ] ],
     [ "led1:A", "pico:GP9", "green", [ "h0" ] ],
     [ "pico:GND.3", "r1:2", "black", [ "h0" ] ],
