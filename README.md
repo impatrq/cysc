@@ -1,30 +1,22 @@
-# cysc
+# Comunicaciones digitales
 
-## Objetivos
+## Consigna
 
-- Conocer la arquitectura interna de un microcontrolador.
-- Programar en bajo y alto nivel (C/C++).
-- Manipular registros de un microcontrolador.
-- Trabajar en aplicaciones de doble nucleo.
-- Diseñar hardware apropiado para solucionar problematicas.
+- Enlazar dos Raspberry Pi Pico con algun modulo inalambrico de comunicaciones.
+- Una de las Pico debe ser capaz de enviar un mensaje predeterminado en formato [JSON][json]. La informacion que se envie puede ser cualquiera siempre que se respete el formato.
+- La otra Pico debe ser capaz de recibir la informacion y mostrarla en la consola con un `printf` o alguna otra interfaz.
 
-## Condiciones de aprobacion
+## Modulos de comunicaciones
 
-- Resolucion de actividades parciales.
-- Implementacion de un proyecto final.
-- Aprobar la evaluacion de proyecto.
+- Modulo de RF [nRF24L01][nRF24L01] a 2.4GHz
+- Modulo de [RF][rf433mhz] a 433MHz
+- Modulo bluetooth [HC-05][hc-05]
+- Modulo WiFi [ESP8266-01][esp8266-01]
+- Modulo [XBee][xbee]
 
-## Actividades
-
-- [ADC][act01].
-- [Control Proporcional][act03].
-
-- [Proyecto de Telecomunicaciones][teleco]
-
-
-- [uPython Repaso][act01-old] (descontinuado).
-
-[act01]: https://github.com/impatrq/cysc/tree/act01/adc
-[act03]: https://github.com/impatrq/cysc/tree/act01/control-proporcional
-[act01-old]: https://github.com/impatrq/cysc/tree/act01/upython-repaso
-[teleco]: https://github.com/impatrq/cysc/tree/teleco
+[json]: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON
+[nRF24L01]: https://www.sparkfun.com/datasheets/Components/SMD/nRF24L01Pluss_Preliminary_Product_Specification_v1_0.pdf
+[rf433mhz]: https://www.mantech.co.za/Datasheets/Products/433Mhz_RF-TX&RX.pdf
+[hc-05]: https://components101.com/sites/default/files/component_datasheet/HC-05%20Datasheet.pdf
+[esp8266-01]: https://www.microchip.ua/wireless/esp01.pdf
+[xbee]: https://www.sparkfun.com/datasheets/Wireless/Zigbee/XBee-Datasheet.pdf
