@@ -46,6 +46,17 @@ Materia: Computadoras y Sistemas de Control
 
 ![pinout][pinout]
 
+## Como compilar
+
+Abran una consola dentro del directorio donde tienen el `main.c` y el `CMakeLists.txt` y escriban:
+
+```bash
+mkdir build
+cd build
+cmake -G "MinGW Makefiles" ..
+make
+```
+
 ## Entrega
 
 - Crear un repositorio con el nombre `cysc-03`
