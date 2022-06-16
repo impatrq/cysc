@@ -48,7 +48,7 @@ Materia: Computadoras y Sistemas de Control
 
 ## Entrega
 
-- Crear un repositorio con el nombre `cysc-02`
+- Crear un repositorio con el nombre `cysc-03`
 - Subir el `README.md` y el `main.c`
 
 [rp2040]: https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf
