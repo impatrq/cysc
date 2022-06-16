@@ -2,20 +2,31 @@
 
 ## Consigna
 
-1- Hacer una lectura de temperatura del NTC
+Se debe desarrollar una aplicacion de control proporcional de temperatura de doble nucleo.
 
-2- Hacer una lectura del potenciometro. Convertirlo a una referencia de temperatura (0-35 C)
+### Nucleo 0
 
-3- Si la temperatura indicada por el potenciometro es mayor a la del NTC, encender proporcionalmente el LED azul (PWM)
+1- Inicializacion de perifericos
 
-4- Si la temperatura indicada por el potenciometro es menor a la del NTC, encender proporcionalmente el LED rojo (PWM)
+2- Hacer una lectura de temperatura del NTC
 
-5- Si se detecta movimiento desde el PIR (usar interrupciones), encender el buzzer. Apagarlo luego de 5 segundos
+3- Hacer una lectura del potenciometro. Convertirlo a una referencia de temperatura (0-35 C)
 
-6- Hacer un `README.md` con el siguiente contenido:
+4- Enviar ambas temperaturas al nucleo 1 con una `queue`.
+
+### Nucleo 1
+
+1- Esperar a que haya un dato listo en la `queue` para leer.
+
+2- Si la temperatura indicada por el potenciometro es mayor a la del NTC, encender proporcionalmente el LED azul (PWM)
+
+3- Si la temperatura indicada por el potenciometro es menor a la del NTC, encender proporcionalmente el LED rojo (PWM)
+
+
+Hacer un `README.md` con el siguiente contenido:
 
 ```markdown
-# Control Proporcional
+# Control Proporcional - Dualcore
 
 
 Alumno: Nombre y apellido
@@ -23,8 +34,6 @@ Alumno: Nombre y apellido
 Curso: Curso
 
 Materia: Computadoras y Sistemas de Control
-
-[Link a proyecto de Wokwi del `wokwi-project.txt`]
 ```
 
 ## Orientacion
@@ -39,8 +48,8 @@ Materia: Computadoras y Sistemas de Control
 
 ## Entrega
 
-- Crear un repositorio con el nombre `cysc-01`
-- Subir el `README.md`, `main.c` y `diagram.json`
+- Crear un repositorio con el nombre `cysc-02`
+- Subir el `README.md` y el `main.c`
 
 [rp2040]: https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf
 [pico]: https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf
