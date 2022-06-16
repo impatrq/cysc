@@ -39,6 +39,6 @@ int main() {
 
       
         /* Cuando los datos estan listos, enviar por la queue */
-        queue_remove_blocking(&queue, &data);
+        queue_add_blocking(&queue, &data);
     }
 }
