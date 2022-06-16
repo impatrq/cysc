@@ -3,6 +3,7 @@
 #include "pico/multicore.h"
 #include "pico/util/queue.h"
 #include "hardware/adc.h"
+#include "hardware/pwm.h"
 
 /* Struct para los datos de temperatura */
 typedef struct {
